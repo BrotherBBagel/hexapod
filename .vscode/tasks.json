@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "build",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/pi/src/main.cpp",
+                "-o",
+                "${workspaceFolder}/pi/build/hexapod",
+                "-lyaml-cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/pi/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

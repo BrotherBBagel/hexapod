@@ -1,0 +1,31 @@
+hexapod:
+  body:
+    height: 45
+  legs:
+    base-offset:
+      leg1: [41.7, 89.5, 0]
+      leg2: [-41.7, 89.5, 0]
+      leg3: [80.1, 0, 0]
+      leg4: [-80.1, 0, 0]
+      leg5: [41.7, -89.5, 0]
+      leg6: [-41.7, -89.5, 0]
+    base-rotation:
+      leg1: 35
+      leg2: 145
+      leg3: 0
+      leg4: 0
+      leg5: -35
+      leg6: -145
+    length:
+      coxa: 59.9
+      femur: 45.7
+      tibia: 81.5
+    curve:
+      coxa: 0
+      femur: 0
+      tibia: -21.6
+    flange-rotation:
+      coxa: 0
+      femur: 0
+      tibia: -23.4
+    
